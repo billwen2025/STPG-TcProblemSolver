@@ -1,1 +1,2 @@
-# STPG-TcProblemSolver
+# STPG-$T_c$ Problem Solver 
+This is a codebase for solver of a new type of Steiner Tree Problem in Graph (STPG) problem, that the Steiner Minimum Tree (SMT) is used for rounting for a Selected Group Broadcasting (SGB) traffic. For example, in the HAPS mesh, we deploy Raft application, and we want the Raft to be in a fast respond networks. To evaluate the QoS or some SLA requirement of the networks, we use the $95\%$ Raft commit time as a metric, this metric we call it $T_c$. So the Raft routing problem is a STPG-$T_c$ problem. The STPG part is for link cost minimize， the $T_c$ part is for application level QoS assurance. $T_c$ evaluation in real-time is challenging, now this problem is a new type of STPG constrained problem.
